@@ -1,5 +1,7 @@
 import React from 'react';
-import DevBodyMainNav from './DevBodyMainNav.jsx'
+import DevBodyMainNav from './DevBodyMainNav.jsx';
+import DevBodySubNav from './DevBodySubNav.jsx';
+import DevBodyGrids from './DevBodyGrids.jsx';
 import Cell from './Cell.jsx';
 var devbodyStyle = {
   width: '1020px',
@@ -60,6 +62,8 @@ class DevBody extends React.Component {
       return (
           <div style={devbodyStyle}> 
               <DevBodyMainNav></DevBodyMainNav>
+              <DevBodySubNav></DevBodySubNav>
+              <DevBodyGrids></DevBodyGrids>
              <ul style={ulStyle}> <Cell text='Hello there'
                         info={info0}/><Cell text='Hello there'info={info1}/><Cell text='Hello there'
                         info={info2}/>

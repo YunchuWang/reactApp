@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/style.css';
 var navbarStyle = {
   color: 'white',
   width: '100%',
