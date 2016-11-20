@@ -14,7 +14,7 @@ var navbarStyle = {
 class DevNavbar extends React.Component {
    render() {
       return (
-          <div style={navbarStyle}> </div>
+          <div className="apple"> </div>
       );
    }
 }
