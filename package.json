@@ -1,0 +1,22 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "<=15.3.2",
+    "react-dom": "<=15.3.2",
+    "webpack": "<=1.13.3",
+    "webpack-dev-server": "<=1.16.0",
+    "webpack-isomorphic-tools": "^2.6.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "style-loader": "^0.13.1"
+  }
+}
