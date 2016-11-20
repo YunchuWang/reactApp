@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import '../css/style.css';
+import '../css/devSidebarTodolistTab.css';
 
 var DevSidebarTodolistTab = React.createClass({
 	getInitialState: function(){
@@ -12,8 +12,8 @@ var DevSidebarTodolistTab = React.createClass({
 	},
 	render: function(){
 		return (
-			<div style={bodystyle}>
-				<TodoBanner/>
+			<div className="TodoList">
+				<TodoBanner className="TodoBanner"/>
 				<TodoList items={this.state.items}/>
 				<TodoForm onFormSubmit={this.updateItems}/>
 			</div>
@@ -24,7 +24,7 @@ var DevSidebarTodolistTab = React.createClass({
 var TodoBanner = React.createClass({
 	render: function(){
 		return (
-			<h3 style={h3style}>TODO</h3>
+			<h3 className="TodoBanner">TODO</h3>
 		);
 	}
 });
@@ -43,7 +43,7 @@ var TodoList = React.createClass({
 var TodoListItem = React.createClass({
 	render: function(){
 		return (
-			<li style={listyle}>{this.props.children}</li>
+			<li className="ListItems">{this.props.children}</li>
 		);
 	}
 });
@@ -67,11 +67,11 @@ var TodoForm = React.createClass ({
 	},
 	render: function(){
 		return (
-			<form onSubmit={this.handleSubmit}>
+			<form className="InputForm"
+                onSubmit={this.handleSubmit}>
 				<input 
                     placeholder="enter task"
-                    type='text' ref='item' onChange={this.onChange} value={this.state.item}
-                    style={intext}/>
+                    type='text' ref='item' onChange={this.onChange} value={this.state.item}/>
 				<input 
                     type='button' value='Add'
                     style={button}/>
@@ -80,27 +80,7 @@ var TodoForm = React.createClass ({
 	}
 })
 
-var bodystyle = {
-    padding: 50,
-    backgroundColor: '#66CCFF',
-    fontFamily: 'Lucida Grande, sans-serif'
-}
 
-var h3style = {
-    background: "#346",
-    textAlign: "center",
-    color: "#fff",
-    padding: 5,
-    borderRadius: 2
-}
-
-var intext={
-    paddingTop: 7,
-    paddingRight: 5,
-    fontSize: 15,
-    width: 250,
-    fontSize: 14
-}
 
 var button={
     backgroundColor: '#0066FF',
@@ -117,13 +97,6 @@ var button={
     
 }
 
-var listyle={
-    color: "#333",
-    backgroundColor: "rgba(255,255,255,.5)",
-    padding: 15,
-    marginBottom: 15,
-    borderRadius: 5
-}
 
 var ulstyle = {
     listStyleType: 'square',
