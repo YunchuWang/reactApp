@@ -1,11 +1,8 @@
 import React from 'react';
-// <<<<<<< HEAD
 import DevBodyMainNav from './DevBodyMainNav.jsx';
 import DevBodySubNav from './DevBodySubNav.jsx';
 import DevBodyGrids from './DevBodyGrids.jsx';
-// =======
 import Cell from './Cell.jsx';
-// >>>>>>> 868e1b1e31081443e44431077947472d8f02d778
 var devbodyStyle = {
   width: '1020px',
   height: '2952px',
