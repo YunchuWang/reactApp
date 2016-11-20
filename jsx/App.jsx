@@ -3,6 +3,7 @@ import Test from './Test.jsx';
 import DevNavbar from './DevNavbar.jsx';
 import DevSidebar from './DevSidebar.jsx';
 import DevBody from './DevBody.jsx';
+import DevSidebarTodolistTab from './DevSidebarTodolistTab.jsx';
 import '../css/style.css';
 var bodyStyle = {
   color: 'blue',

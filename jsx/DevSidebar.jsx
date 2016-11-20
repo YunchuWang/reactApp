@@ -1,4 +1,6 @@
 import React from 'react';
+import DevSidebarTodolistTab from './DevSidebarTodolistTab.jsx';
+
 var sidebarStyle = {
     position: 'absolute',
     width: '260px',
@@ -15,56 +17,11 @@ class DevSidebar extends React.Component {
    render() {
       return (
                   <div style={sidebarStyle}> 
-                      <p>Teddy Bear1</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear4</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear5</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
-                      <p>Teddy Bear</p>
+                     <p>jkjkj</p>
+                    <p>teijidjid</p>
+               <DevSidebarTodolistTab/>
                   </div>
+                    
         
       );
    }

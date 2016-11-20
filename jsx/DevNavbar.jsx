@@ -7,7 +7,6 @@ var navbarStyle = {
   position:'absolute',
   top:'0',
   left:'0',
-  overflow:'scroll',
   zIndex: 2,
   borderBottom: '1px solid #C0C0C0'
 };
