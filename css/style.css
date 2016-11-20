@@ -19,12 +19,8 @@ div {
 .DevBodySubNav {
     z-index: 2;
     width: 100%;
-<<<<<<< HEAD
     height: 100%;
     position: fixed;
-    
-}
-=======
     position:absolute;
     top: 93px;
     left: 0px;
@@ -47,4 +43,4 @@ div {
     border-width: 1;
 }
 
->>>>>>> 52333ccb79469771e540fb5537c42b30758ab9c3
+
