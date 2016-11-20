@@ -1,5 +1,6 @@
 import React from 'react';
 import DevSidebarTodolistTab from './DevSidebarTodolistTab.jsx';
+import '../css/devSidebarTodolistTab.css';
 
 var sidebarStyle = {
     position: 'absolute',
@@ -19,7 +20,7 @@ class DevSidebar extends React.Component {
                   <div style={sidebarStyle}> 
                      <p>jkjkj</p>
                     <p>teijidjid</p>
-               <DevSidebarTodolistTab/>
+                    <DevSidebarTodolistTab/>
                   </div>
                     
         
