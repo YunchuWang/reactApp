@@ -3,9 +3,6 @@ html, body {
     padding:0; 
     position: relative; 
     width:auto; 
-    border: 1px solid transparent;
-    border-radius: 3px;
-    
 }
 
 div {
@@ -17,7 +14,6 @@ div {
 }
 
 .DevBodySubNav {
-    z-index: 2;
     width: 100%;
     position:absolute;
     top: 93px;
@@ -35,9 +31,8 @@ div {
 .whitegrid {
     background-color: white;
     margin-bottom: 20px;
-    border-color: #ddd;
     color: #333;
-    border-color: #000033;
-    border-width: 1;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
