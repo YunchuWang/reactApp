@@ -4,7 +4,10 @@ import DevBodySubNav from './DevBodySubNav.jsx';
 import DevBodyGrids from './DevBodyGrids.jsx';
 import Cell from './Cell.jsx';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 861658d78cc237ea2bce92f8ae7bc3bf9da12b2d
 =======
 >>>>>>> 861658d78cc237ea2bce92f8ae7bc3bf9da12b2d
 var devbodyStyle = {
@@ -69,11 +72,17 @@ class DevBody extends React.Component {
               <DevBodySubNav></DevBodySubNav>
               <DevBodyGrids></DevBodyGrids>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 861658d78cc237ea2bce92f8ae7bc3bf9da12b2d
              <ul style={ulStyle}> <Cell text='Hello there'
                         info={info0}/><Cell text='Hello there'info={info1}/><Cell text='Hello there'
                         info={info2}/>
                         </ul>
+<<<<<<< HEAD
+>>>>>>> 861658d78cc237ea2bce92f8ae7bc3bf9da12b2d
+=======
 >>>>>>> 861658d78cc237ea2bce92f8ae7bc3bf9da12b2d
           </div>
       );
